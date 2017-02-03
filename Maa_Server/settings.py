@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'welcome',
+    'vaccin_schedule',
 ]
 
 MIDDLEWARE_CLASSES = [

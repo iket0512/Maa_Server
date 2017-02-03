@@ -18,10 +18,12 @@ from django.conf.urls import url
 from django.contrib import admin
 from welcome.views import welcome
 from vaccin_schedule.views import vaccin
+from maps.views import map_view
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^welcome/', welcome),
     url(r'^vaccin/', vaccin),
+    url(r'^map/', map_view),
     # url(r'fcm/', include('fcm.urls')),
 ]

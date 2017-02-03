@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'fcm_django',
     'welcome',
     'vaccin_schedule',
 ]
@@ -121,3 +122,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+FCM_DJANGO_SETTINGS = {
+"FCM_SERVER_KEY": "[ AIzaSyBP4mHTJEWQOo3X27PkJVfRc3j8Jv8_Eug ]"
+}

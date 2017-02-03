@@ -17,10 +17,11 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from welcome.views import welcome
-from vaccin_schedule.admin import vaccinModelAdmin 
+from vaccin_schedule.views import vaccin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^welcome/', welcome),
-    url(r'^vaccin/', admin.site.urls),
+    url(r'^vaccin/', vaccin),
+    # url(r'fcm/', include('fcm.urls')),
 ]

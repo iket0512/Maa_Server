@@ -40,8 +40,11 @@ INSTALLED_APPS = [
     'fcm_django',
     'welcome',
     'vaccin_schedule',
+    'discuss',
+    'customs',
     'maps',
-    'gallery'
+    'gallery',
+    'login'
 ]
 
 MIDDLEWARE_CLASSES = [

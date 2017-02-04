@@ -26,6 +26,4 @@ def map_view(request):
 		
 	return JsonResponse(response_json)	
 
-
-
 # Create your views here.
